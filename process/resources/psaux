@@ -1,0 +1,322 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.2 169208 11268 ?        Ss   Nov09   1:11 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    Nov09   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   Nov09   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   Nov09   0:00 [rcu_par_gp]
+root           6  0.0  0.0      0     0 ?        I<   Nov09   0:00 [kworker/0:0H]
+root           9  0.0  0.0      0     0 ?        I<   Nov09   0:00 [mm_percpu_wq]
+root          10  0.0  0.0      0     0 ?        S    Nov09   0:01 [ksoftirqd/0]
+root          11  0.0  0.0      0     0 ?        I    Nov09   2:41 [rcu_sched]
+root          12  0.0  0.0      0     0 ?        S    Nov09   0:03 [migration/0]
+root          13  0.0  0.0      0     0 ?        S    Nov09   0:00 [idle_inject/0]
+root          14  0.0  0.0      0     0 ?        S    Nov09   0:00 [cpuhp/0]
+root          15  0.0  0.0      0     0 ?        S    Nov09   0:00 [cpuhp/1]
+root          16  0.0  0.0      0     0 ?        S    Nov09   0:00 [idle_inject/1]
+root          17  0.0  0.0      0     0 ?        S    Nov09   0:03 [migration/1]
+root          18  0.0  0.0      0     0 ?        S    Nov09   0:00 [ksoftirqd/1]
+root          20  0.0  0.0      0     0 ?        I<   Nov09   0:00 [kworker/1:0H-kblockd]
+root          21  0.0  0.0      0     0 ?        S    Nov09   0:00 [cpuhp/2]
+root          22  0.0  0.0      0     0 ?        S    Nov09   0:00 [idle_inject/2]
+root          23  0.0  0.0      0     0 ?        S    Nov09   0:03 [migration/2]
+root          24  0.0  0.0      0     0 ?        S    Nov09   0:00 [ksoftirqd/2]
+root          26  0.0  0.0      0     0 ?        I<   Nov09   0:00 [kworker/2:0H-kblockd]
+root          27  0.0  0.0      0     0 ?        S    Nov09   0:00 [cpuhp/3]
+root          28  0.0  0.0      0     0 ?        S    Nov09   0:00 [idle_inject/3]
+root          29  0.0  0.0      0     0 ?        S    Nov09   0:03 [migration/3]
+root          30  0.0  0.0      0     0 ?        S    Nov09   0:01 [ksoftirqd/3]
+root          32  0.0  0.0      0     0 ?        I<   Nov09   0:00 [kworker/3:0H-kblockd]
+root          33  0.0  0.0      0     0 ?        S    Nov09   0:00 [kdevtmpfs]
+root          34  0.0  0.0      0     0 ?        I<   Nov09   0:00 [netns]
+root          35  0.0  0.0      0     0 ?        S    Nov09   0:00 [rcu_tasks_kthre]
+root          36  0.0  0.0      0     0 ?        S    Nov09   0:00 [kauditd]
+root          41  0.0  0.0      0     0 ?        S    Nov09   0:00 [khungtaskd]
+root          42  0.0  0.0      0     0 ?        S    Nov09   0:00 [oom_reaper]
+root          43  0.0  0.0      0     0 ?        I<   Nov09   0:00 [writeback]
+root          44  0.0  0.0      0     0 ?        S    Nov09   0:02 [kcompactd0]
+root          45  0.0  0.0      0     0 ?        SN   Nov09   0:00 [ksmd]
+root          46  0.0  0.0      0     0 ?        SN   Nov09   0:02 [khugepaged]
+root         138  0.0  0.0      0     0 ?        I<   Nov09   0:00 [kintegrityd]
+root         139  0.0  0.0      0     0 ?        I<   Nov09   0:00 [kblockd]
+root         140  0.0  0.0      0     0 ?        I<   Nov09   0:00 [blkcg_punt_bio]
+root         144  0.0  0.0      0     0 ?        I<   Nov09   0:00 [tpm_dev_wq]
+root         145  0.0  0.0      0     0 ?        I<   Nov09   0:00 [ata_sff]
+root         146  0.0  0.0      0     0 ?        I<   Nov09   0:00 [md]
+root         147  0.0  0.0      0     0 ?        I<   Nov09   0:00 [edac-poller]
+root         148  0.0  0.0      0     0 ?        I<   Nov09   0:00 [devfreq_wq]
+root         149  0.0  0.0      0     0 ?        S    Nov09   0:00 [watchdogd]
+root         152  0.0  0.0      0     0 ?        S    Nov09   0:12 [kswapd0]
+root         153  0.0  0.0      0     0 ?        S    Nov09   0:00 [ecryptfs-kthrea]
+root         156  0.0  0.0      0     0 ?        I<   Nov09   0:00 [kthrotld]
+root         157  0.0  0.0      0     0 ?        S    Nov09   0:00 [irq/24-pciehp]
+root         158  0.0  0.0      0     0 ?        S    Nov09   0:00 [irq/25-pciehp]
+root         159  0.0  0.0      0     0 ?        S    Nov09   0:00 [irq/26-pciehp]
+root         160  0.0  0.0      0     0 ?        S    Nov09   0:00 [irq/27-pciehp]
+root         161  0.0  0.0      0     0 ?        S    Nov09   0:00 [irq/28-pciehp]
+root         162  0.0  0.0      0     0 ?        S    Nov09   0:00 [irq/29-pciehp]
+root         163  0.0  0.0      0     0 ?        S    Nov09   0:00 [irq/30-pciehp]
+root         164  0.0  0.0      0     0 ?        S    Nov09   0:00 [irq/31-pciehp]
+root         165  0.0  0.0      0     0 ?        S    Nov09   0:00 [irq/32-pciehp]
+root         166  0.0  0.0      0     0 ?        S    Nov09   0:00 [irq/33-pciehp]
+root         167  0.0  0.0      0     0 ?        S    Nov09   0:00 [irq/34-pciehp]
+root         168  0.0  0.0      0     0 ?        S    Nov09   0:00 [irq/35-pciehp]
+root         169  0.0  0.0      0     0 ?        S    Nov09   0:00 [irq/36-pciehp]
+root         170  0.0  0.0      0     0 ?        S    Nov09   0:00 [irq/37-pciehp]
+root         171  0.0  0.0      0     0 ?        S    Nov09   0:00 [irq/38-pciehp]
+root         172  0.0  0.0      0     0 ?        S    Nov09   0:00 [irq/39-pciehp]
+root         173  0.0  0.0      0     0 ?        S    Nov09   0:00 [irq/40-pciehp]
+root         174  0.0  0.0      0     0 ?        S    Nov09   0:00 [irq/41-pciehp]
+root         175  0.0  0.0      0     0 ?        S    Nov09   0:00 [irq/42-pciehp]
+root         176  0.0  0.0      0     0 ?        S    Nov09   0:00 [irq/43-pciehp]
+root         177  0.0  0.0      0     0 ?        S    Nov09   0:00 [irq/44-pciehp]
+root         178  0.0  0.0      0     0 ?        S    Nov09   0:00 [irq/45-pciehp]
+root         179  0.0  0.0      0     0 ?        S    Nov09   0:00 [irq/46-pciehp]
+root         180  0.0  0.0      0     0 ?        S    Nov09   0:00 [irq/47-pciehp]
+root         181  0.0  0.0      0     0 ?        S    Nov09   0:00 [irq/48-pciehp]
+root         182  0.0  0.0      0     0 ?        S    Nov09   0:00 [irq/49-pciehp]
+root         183  0.0  0.0      0     0 ?        S    Nov09   0:00 [irq/50-pciehp]
+root         184  0.0  0.0      0     0 ?        S    Nov09   0:00 [irq/51-pciehp]
+root         185  0.0  0.0      0     0 ?        S    Nov09   0:00 [irq/52-pciehp]
+root         186  0.0  0.0      0     0 ?        S    Nov09   0:00 [irq/53-pciehp]
+root         187  0.0  0.0      0     0 ?        S    Nov09   0:00 [irq/54-pciehp]
+root         188  0.0  0.0      0     0 ?        S    Nov09   0:00 [irq/55-pciehp]
+root         189  0.0  0.0      0     0 ?        I<   Nov09   0:00 [acpi_thermal_pm]
+root         190  0.0  0.0      0     0 ?        S    Nov09   0:00 [scsi_eh_0]
+root         191  0.0  0.0      0     0 ?        I<   Nov09   0:00 [scsi_tmf_0]
+root         192  0.0  0.0      0     0 ?        S    Nov09   0:00 [scsi_eh_1]
+root         193  0.0  0.0      0     0 ?        I<   Nov09   0:00 [scsi_tmf_1]
+root         195  0.0  0.0      0     0 ?        I<   Nov09   0:00 [vfio-irqfd-clea]
+root         196  0.0  0.0      0     0 ?        I<   Nov09   0:00 [ipv6_addrconf]
+root         208  0.0  0.0      0     0 ?        I<   Nov09   0:00 [kstrp]
+root         228  0.0  0.0      0     0 ?        I<   Nov09   0:00 [charger_manager]
+root         277  0.0  0.0      0     0 ?        S    Nov09   0:00 [scsi_eh_2]
+root         278  0.0  0.0      0     0 ?        I<   Nov09   0:00 [scsi_tmf_2]
+root         279  0.0  0.0      0     0 ?        S    Nov09   0:00 [scsi_eh_3]
+root         280  0.0  0.0      0     0 ?        I<   Nov09   0:00 [mpt_poll_0]
+root         281  0.0  0.0      0     0 ?        I<   Nov09   0:00 [mpt/0]
+root         282  0.0  0.0      0     0 ?        I<   Nov09   0:00 [scsi_tmf_3]
+root         283  0.0  0.0      0     0 ?        S    Nov09   0:00 [scsi_eh_4]
+root         286  0.0  0.0      0     0 ?        I<   Nov09   0:00 [scsi_tmf_4]
+root         287  0.0  0.0      0     0 ?        S    Nov09   0:00 [scsi_eh_5]
+root         288  0.0  0.0      0     0 ?        I<   Nov09   0:00 [scsi_tmf_5]
+root         289  0.0  0.0      0     0 ?        S    Nov09   0:00 [scsi_eh_6]
+root         290  0.0  0.0      0     0 ?        I<   Nov09   0:00 [scsi_tmf_6]
+root         291  0.0  0.0      0     0 ?        S    Nov09   0:00 [scsi_eh_7]
+root         292  0.0  0.0      0     0 ?        I<   Nov09   0:00 [scsi_tmf_7]
+root         293  0.0  0.0      0     0 ?        S    Nov09   0:00 [scsi_eh_8]
+root         294  0.0  0.0      0     0 ?        I<   Nov09   0:00 [scsi_tmf_8]
+root         295  0.0  0.0      0     0 ?        S    Nov09   0:00 [scsi_eh_9]
+root         296  0.0  0.0      0     0 ?        I<   Nov09   0:00 [scsi_tmf_9]
+root         297  0.0  0.0      0     0 ?        S    Nov09   0:00 [scsi_eh_10]
+root         298  0.0  0.0      0     0 ?        I<   Nov09   0:00 [scsi_tmf_10]
+root         299  0.0  0.0      0     0 ?        S    Nov09   0:00 [scsi_eh_11]
+root         300  0.0  0.0      0     0 ?        I<   Nov09   0:00 [scsi_tmf_11]
+root         301  0.0  0.0      0     0 ?        S    Nov09   0:00 [scsi_eh_12]
+root         302  0.0  0.0      0     0 ?        I<   Nov09   0:00 [scsi_tmf_12]
+root         303  0.0  0.0      0     0 ?        S    Nov09   0:00 [scsi_eh_13]
+root         304  0.0  0.0      0     0 ?        I<   Nov09   0:00 [scsi_tmf_13]
+root         305  0.0  0.0      0     0 ?        S    Nov09   0:00 [scsi_eh_14]
+root         306  0.0  0.0      0     0 ?        I<   Nov09   0:00 [scsi_tmf_14]
+root         307  0.0  0.0      0     0 ?        S    Nov09   0:00 [scsi_eh_15]
+root         308  0.0  0.0      0     0 ?        I<   Nov09   0:00 [scsi_tmf_15]
+root         309  0.0  0.0      0     0 ?        S    Nov09   0:00 [scsi_eh_16]
+root         310  0.0  0.0      0     0 ?        I<   Nov09   0:00 [scsi_tmf_16]
+root         311  0.0  0.0      0     0 ?        S    Nov09   0:00 [scsi_eh_17]
+root         312  0.0  0.0      0     0 ?        I<   Nov09   0:00 [scsi_tmf_17]
+root         313  0.0  0.0      0     0 ?        S    Nov09   0:00 [scsi_eh_18]
+root         314  0.0  0.0      0     0 ?        I<   Nov09   0:00 [scsi_tmf_18]
+root         315  0.0  0.0      0     0 ?        S    Nov09   0:00 [scsi_eh_19]
+root         316  0.0  0.0      0     0 ?        I<   Nov09   0:00 [scsi_tmf_19]
+root         317  0.0  0.0      0     0 ?        S    Nov09   0:00 [scsi_eh_20]
+root         318  0.0  0.0      0     0 ?        I<   Nov09   0:00 [scsi_tmf_20]
+root         319  0.0  0.0      0     0 ?        S    Nov09   0:00 [scsi_eh_21]
+root         320  0.0  0.0      0     0 ?        I<   Nov09   0:00 [scsi_tmf_21]
+root         321  0.0  0.0      0     0 ?        S    Nov09   0:00 [scsi_eh_22]
+root         322  0.0  0.0      0     0 ?        I<   Nov09   0:00 [scsi_tmf_22]
+root         323  0.0  0.0      0     0 ?        S    Nov09   0:00 [scsi_eh_23]
+root         324  0.0  0.0      0     0 ?        I<   Nov09   0:00 [scsi_tmf_23]
+root         325  0.0  0.0      0     0 ?        S    Nov09   0:00 [scsi_eh_24]
+root         326  0.0  0.0      0     0 ?        I<   Nov09   0:00 [scsi_tmf_24]
+root         327  0.0  0.0      0     0 ?        S    Nov09   0:00 [scsi_eh_25]
+root         328  0.0  0.0      0     0 ?        I<   Nov09   0:00 [scsi_tmf_25]
+root         329  0.0  0.0      0     0 ?        S    Nov09   0:00 [scsi_eh_26]
+root         330  0.0  0.0      0     0 ?        I<   Nov09   0:00 [scsi_tmf_26]
+root         331  0.0  0.0      0     0 ?        S    Nov09   0:00 [scsi_eh_27]
+root         332  0.0  0.0      0     0 ?        I<   Nov09   0:00 [scsi_tmf_27]
+root         333  0.0  0.0      0     0 ?        S    Nov09   0:00 [scsi_eh_28]
+root         334  0.0  0.0      0     0 ?        I<   Nov09   0:00 [scsi_tmf_28]
+root         335  0.0  0.0      0     0 ?        S    Nov09   0:00 [scsi_eh_29]
+root         336  0.0  0.0      0     0 ?        I<   Nov09   0:00 [scsi_tmf_29]
+root         337  0.0  0.0      0     0 ?        S    Nov09   0:00 [scsi_eh_30]
+root         338  0.0  0.0      0     0 ?        I<   Nov09   0:00 [scsi_tmf_30]
+root         339  0.0  0.0      0     0 ?        S    Nov09   0:00 [scsi_eh_31]
+root         340  0.0  0.0      0     0 ?        I<   Nov09   0:00 [scsi_tmf_31]
+root         367  0.0  0.0      0     0 ?        I<   Nov09   0:05 [kworker/1:1H-kblockd]
+root         368  0.0  0.0      0     0 ?        S    Nov09   0:00 [scsi_eh_32]
+root         369  0.0  0.0      0     0 ?        I<   Nov09   0:00 [scsi_tmf_32]
+root         371  0.0  0.0      0     0 ?        I<   Nov09   0:18 [kworker/0:1H-kblockd]
+root         372  0.0  0.0      0     0 ?        I<   Nov09   0:04 [kworker/3:1H-kblockd]
+root         393  0.0  0.0      0     0 ?        I<   Nov09   0:05 [kworker/2:1H-kblockd]
+root         394  0.0  0.0      0     0 ?        S    Nov09   0:21 [jbd2/sda3-8]
+root         395  0.0  0.0      0     0 ?        I<   Nov09   0:00 [ext4-rsv-conver]
+root         434  0.0  1.1 115216 46376 ?        S<s  Nov09   0:22 /lib/systemd/systemd-journald
+root         470  0.0  0.1  24192  7156 ?        Ss   Nov09   0:31 /lib/systemd/systemd-udevd
+root         471  0.0  0.0      0     0 ?        S<   Nov09   0:00 [loop1]
+root         494  0.0  0.0      0     0 ?        S<   Nov09   0:00 [loop2]
+root         495  0.0  0.0      0     0 ?        S<   Nov09   0:00 [loop3]
+root         496  0.0  0.0      0     0 ?        S<   Nov09   0:00 [loop4]
+root         497  0.0  0.0      0     0 ?        S<   Nov09   0:00 [loop5]
+root         504  0.0  0.0      0     0 ?        S<   Nov09   0:00 [loop6]
+root         505  0.0  0.0      0     0 ?        S<   Nov09   0:00 [loop7]
+root         506  0.0  0.0      0     0 ?        S<   Nov09   0:00 [loop8]
+root         524  0.0  0.0      0     0 ?        S    Nov09   1:21 [irq/16-vmwgfx]
+root         525  0.0  0.0      0     0 ?        I<   Nov09   0:00 [ttm_swap]
+root         542  0.0  0.0      0     0 ?        I<   Nov09   0:00 [cryptd]
+root         744  0.0  0.0      0     0 ?        S    Nov09   0:00 [jbd2/sda1-8]
+root         745  0.0  0.0      0     0 ?        I<   Nov09   0:00 [ext4-rsv-conver]
+systemd+     760  0.0  0.2  24704  8692 ?        Ss   Nov09   0:22 /lib/systemd/systemd-resolved
+systemd+     761  0.0  0.1  90412  5156 ?        Ssl  Nov09   0:02 /lib/systemd/systemd-timesyncd
+root         794  0.0  0.0   2540   752 ?        Ss   Nov09   0:43 /usr/sbin/acpid
+avahi        797  0.0  0.0   8500  2920 ?        Ss   Nov09   0:04 avahi-daemon: running [meixsh-vm.local]
+root         800  0.0  0.1   8472  4356 ?        Ss   Nov09   0:00 /usr/lib/bluetooth/bluetoothd
+root         803  0.0  0.0  18044  2864 ?        Ss   Nov09   0:01 /usr/sbin/cron -f
+message+     805  0.0  0.1  10104  5600 ?        Ss   Nov09   0:30 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         806  0.0  0.3 888244 12684 ?        Ssl  Nov09   5:51 /usr/sbin/NetworkManager --no-daemon
+root         830  0.0  0.0  81912  3268 ?        Ssl  Nov09   0:36 /usr/sbin/irqbalance --foreground
+root         831  0.0  0.2  47872  9988 ?        Ss   Nov09   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         836  0.0  0.2 254580 10068 ?        Ssl  Nov09   0:05 /usr/lib/policykit-1/polkitd --no-debug
+syslog       841  0.0  0.1 224324  4052 ?        Ssl  Nov09   0:05 /usr/sbin/rsyslogd -n -iNONE
+root         842  0.0  0.6 1746152 27644 ?       Ssl  Nov09   1:19 /usr/lib/snapd/snapd
+root         843  0.0  0.1 244396  5064 ?        Ssl  Nov09   0:00 /usr/libexec/switcheroo-control
+root         845  0.0  0.1  16952  6524 ?        Ss   Nov09   0:11 /lib/systemd/systemd-logind
+root         847  0.0  0.2 395516 10164 ?        Ssl  Nov09   0:01 /usr/lib/udisks2/udisksd
+root         851  0.0  0.0  13664  2540 ?        Ss   Nov09   0:03 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi        863  0.0  0.0   8320   288 ?        S    Nov09   0:00 avahi-daemon: chroot helper
+root         903  0.0  0.2 126420 11108 ?        Ssl  Nov09   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         911  0.0  0.1 313724  5724 ?        Ssl  Nov09   0:00 /usr/sbin/ModemManager --filter-policy=strict
+root         934  0.0  0.1 248224  5348 ?        Ssl  Nov09   0:00 /usr/sbin/gdm3
+rtkit       1105  0.0  0.0 152916  2436 ?        SNsl Nov09   0:19 /usr/libexec/rtkit-daemon
+root        1256  0.0  0.0 242352   120 ?        Ssl  Nov09   0:00 /usr/sbin/vmware-vmblock-fuse -o subtype=vmware-vmblock,default_permissions,allow_other /var/run/vmblock-fuse
+root        1301  0.0  0.1 260772  6116 ?        Ssl  Nov09   0:00 /usr/lib/upower/upowerd
+root        1318  0.3  0.1 169720  6740 ?        Sl   Nov09  35:57 /usr/sbin/vmtoolsd
+root        1362  0.0  0.0  40732  3568 ?        S    Nov09   0:00 /usr/lib/vmware-vgauth/VGAuthService -s
+kernoops    1382  0.0  0.0  11240    88 ?        Ss   Nov09   0:17 /usr/sbin/kerneloops --test
+kernoops    1386  0.0  0.0  11240  2460 ?        Ss   Nov09   0:17 /usr/sbin/kerneloops
+colord      1629  0.0  0.2 872032 11756 ?        Ssl  Nov09   0:00 /usr/libexec/colord
+root        1682  0.0  0.2 324308  9552 ?        Sl   Nov09   0:00 gdm-session-worker [pam/gdm-password]
+meixsh      1690  0.0  0.2  23780 10576 ?        Ss   Nov09   0:07 /lib/systemd/systemd --user
+meixsh      1691  0.0  0.0 168936  1112 ?        S    Nov09   0:00 (sd-pam)
+meixsh      1697  0.0  0.3 2539924 12868 ?       Ssl  Nov09   2:30 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+meixsh      1699  0.0  0.3 995752 12844 ?        SNsl Nov09   0:04 /usr/libexec/tracker-miner-fs
+meixsh      1701  0.0  0.1  10188  6692 ?        Ss   Nov09   0:15 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+meixsh      1706  0.0  0.1 396396  6076 ?        Sl   Nov09   0:02 /usr/bin/gnome-keyring-daemon --daemonize --login
+meixsh      1709  0.0  0.1 248452  5924 ?        Ssl  Nov09   0:01 /usr/libexec/gvfsd
+meixsh      1715  0.0  0.1 382056  4152 ?        Sl   Nov09   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+meixsh      1734  0.0  0.1 326056  7724 ?        Ssl  Nov09   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+meixsh      1743  0.0  0.1 325352  4948 ?        Ssl  Nov09   0:29 /usr/libexec/gvfs-afc-volume-monitor
+meixsh      1750  0.0  0.0 246724  3744 ?        Ssl  Nov09   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+root        1755  0.0  0.0      0     0 ?        S<   Nov09   0:00 [krfcommd]
+meixsh      1756  0.0  0.0 244320  3988 ?        Ssl  Nov09   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+meixsh      1760  0.0  0.0 244500  3548 ?        Ssl  Nov09   0:00 /usr/libexec/gvfs-goa-volume-monitor
+meixsh      1764  0.0  0.1 550424  6916 ?        Sl   Nov09   0:01 /usr/libexec/goa-daemon
+meixsh      1771  0.0  0.1 400964  5456 ?        Sl   Nov09   0:05 /usr/libexec/goa-identity-service
+meixsh      1776  0.0  0.1 172628  4248 tty2     Ssl+ Nov09   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+meixsh      1782  0.1  1.0 324296 41088 tty2     Sl+  Nov09  20:24 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+meixsh      1802  0.0  0.1 199536  7276 tty2     Sl+  Nov09   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+meixsh      1875  0.0  0.0   6032    36 ?        Ss   Nov09   0:03 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+meixsh      1892  0.1  0.1 324100  6828 ?        Ssl  Nov09  13:17 /usr/bin/ibus-daemon --daemonize --xim
+meixsh      1898  0.0  0.1 249000  4708 ?        Sl   Nov09   0:00 /usr/libexec/ibus-dconf
+meixsh      1900  0.0  0.3 447072 15344 ?        Sl   Nov09   0:02 /usr/libexec/ibus-ui-gtk3
+meixsh      1903  0.0  0.3 405352 13812 ?        Sl   Nov09   0:54 /usr/libexec/ibus-extension-gtk3
+meixsh      1905  0.0  0.4 327628 16116 ?        Sl   Nov09   0:02 /usr/libexec/ibus-x11 --kill-daemon
+meixsh      1907  0.0  0.1 249112  6060 ?        Sl   Nov09   0:01 /usr/libexec/ibus-portal
+meixsh      1914  0.0  0.1 309732  5624 ?        Ssl  Nov09   0:00 /usr/libexec/at-spi-bus-launcher
+meixsh      1919  0.0  0.0   7348  2800 ?        S    Nov09   0:01 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+meixsh      1926  0.0  0.1 162936  4604 ?        Sl   Nov09   0:08 /usr/libexec/at-spi2-registryd --use-gnome-session
+meixsh      1927  0.0  0.1 619128  7476 ?        Ssl  Nov09   0:19 /usr/libexec/xdg-desktop-portal
+meixsh      1931  0.0  0.0 613648  3800 ?        Ssl  Nov09   0:01 /usr/libexec/xdg-document-portal
+meixsh      1934  0.0  0.0 244220  2012 ?        Ssl  Nov09   0:00 /usr/libexec/xdg-permission-store
+meixsh      1943  0.0  0.3 506656 13212 ?        Ssl  Nov09   0:03 /usr/libexec/xdg-desktop-portal-gtk
+meixsh      1956  0.0  0.1 157508  4852 ?        Sl   Nov09   0:01 /usr/libexec/dconf-service
+meixsh      1962  0.0  0.1 248520  4356 ?        Sl   Nov09   0:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+meixsh      1972  0.0  0.0  98672  3444 ?        Ssl  Nov09   0:00 /usr/libexec/gnome-session-ctl --monitor
+meixsh      1977  0.0  0.2 569148  9056 ?        Ssl  Nov09   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+meixsh      1981  0.0  0.1 175444  6336 ?        Sl   Nov09   4:31 /usr/libexec/ibus-engine-simple
+meixsh      2002  0.3  7.7 4578440 308924 ?      Ssl  Nov09  36:10 /usr/bin/gnome-shell
+meixsh      2028  0.0  0.1 508112  5764 ?        Sl   Nov09   0:00 /usr/libexec/gnome-shell-calendar-server
+meixsh      2033  0.0  0.2 1078980 10132 ?       Ssl  Nov09   0:00 /usr/libexec/evolution-source-registry
+meixsh      2044  0.0  0.3 2742536 13816 ?       Sl   Nov09   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+meixsh      2055  0.0  0.1 473872  7196 ?        Sl   Nov09   0:00 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+meixsh      2067  0.0  0.1 322540  4468 ?        Ssl  Nov09   0:00 /usr/libexec/gsd-a11y-settings
+meixsh      2069  0.0  0.3 644696 13808 ?        Ssl  Nov09   0:06 /usr/libexec/gsd-color
+meixsh      2076  0.0  0.1 382972  6700 ?        Ssl  Nov09   0:00 /usr/libexec/gsd-datetime
+meixsh      2077  0.0  0.1 322896  5900 ?        Ssl  Nov09   0:16 /usr/libexec/gsd-housekeeping
+meixsh      2078  0.0  0.2 356948  9908 ?        Ssl  Nov09   0:02 /usr/libexec/gsd-keyboard
+meixsh      2080  0.0  0.5 1436704 20336 ?       Ssl  Nov09   0:06 /usr/libexec/gsd-media-keys
+meixsh      2083  0.0  0.3 357592 12936 ?        Ssl  Nov09   0:05 /usr/libexec/gsd-power
+meixsh      2085  0.0  0.1 256832  5836 ?        Ssl  Nov09   0:00 /usr/libexec/gsd-print-notifications
+meixsh      2086  0.0  0.0 465720  3544 ?        Ssl  Nov09   0:00 /usr/libexec/gsd-rfkill
+meixsh      2091  0.0  0.0 244132  3940 ?        Ssl  Nov09   0:00 /usr/libexec/gsd-screensaver-proxy
+meixsh      2092  0.0  0.1 477600  7312 ?        Ssl  Nov09   0:02 /usr/libexec/gsd-sharing
+meixsh      2093  0.0  0.0 326568  3372 ?        Ssl  Nov09   0:00 /usr/libexec/gsd-smartcard
+meixsh      2097  0.0  0.1 330300  5272 ?        Ssl  Nov09   0:00 /usr/libexec/gsd-sound
+meixsh      2105  0.0  0.1 396500  4928 ?        Ssl  Nov09   0:00 /usr/libexec/gsd-usb-protection
+meixsh      2108  0.0  0.3 356488 13948 ?        Ssl  Nov09   0:02 /usr/libexec/gsd-wacom
+meixsh      2111  0.0  0.3 790748 14656 ?        Sl   Nov09   0:04 /usr/libexec/evolution-data-server/evolution-alarm-notify
+meixsh      2113  0.0  0.1 231792  5744 ?        Sl   Nov09   0:00 /usr/libexec/gsd-disk-utility-notify
+meixsh      2114  0.0  0.1 326864  4964 ?        Ssl  Nov09   0:00 /usr/libexec/gsd-wwan
+meixsh      2133  0.0  0.3 357568 13456 ?        Ssl  Nov09   0:03 /usr/libexec/gsd-xsettings
+meixsh      2138  0.0  0.2 1388216 10232 ?       Ssl  Nov09   0:02 /usr/libexec/evolution-calendar-factory
+meixsh      2145  0.3  0.3 227708 12764 ?        Sl   Nov09  36:33 /usr/lib/vmware-tools/sbin64/vmtoolsd -n vmusr --blockFd 3
+meixsh      2164  0.0  0.1 350800  6768 ?        Sl   Nov09   0:00 /usr/libexec/gsd-printer
+meixsh      2208  0.0  0.2 960596  8140 ?        Ssl  Nov09   0:01 /usr/libexec/evolution-addressbook-factory
+meixsh      2220  0.0 30.9 2311836 1238292 ?     Sl   Nov09   3:48 /snap/snap-store/481/usr/bin/snap-store --gapplication-service
+root        2460  0.0  0.0      0     0 ?        S<   Nov09   0:00 [loop9]
+meixsh      3106  0.0  0.1 170908  4532 ?        Ssl  Nov09   0:00 /usr/libexec/gvfsd-metadata
+meixsh      3109  0.0  0.7 740472 28476 ?        Sl   Nov09   0:22 update-notifier
+root       28673  0.0  0.0      0     0 ?        I<   Nov09   0:00 [xfsalloc]
+root       28678  0.0  0.0      0     0 ?        I<   Nov09   0:00 [xfs_mru_cache]
+root       28681  0.0  0.0      0     0 ?        S    Nov09   0:00 [jfsIO]
+root       28682  0.0  0.0      0     0 ?        S    Nov09   0:00 [jfsCommit]
+root       28683  0.0  0.0      0     0 ?        S    Nov09   0:00 [jfsCommit]
+root       28684  0.0  0.0      0     0 ?        S    Nov09   0:00 [jfsCommit]
+root       28685  0.0  0.0      0     0 ?        S    Nov09   0:00 [jfsCommit]
+root       28686  0.0  0.0      0     0 ?        S    Nov09   0:00 [jfsSync]
+whoopsie   35019  0.0  0.2 327304 11956 ?        Ssl  Nov09   0:03 /usr/bin/whoopsie -f
+root       69398  0.0  0.1 174936  6492 ?        Sl   Nov10   0:00 gdm-session-worker [pam/gdm-password]
+root       78822  0.0  0.1 174936  6580 ?        Sl   Nov11   0:00 gdm-session-worker [pam/gdm-password]
+root       83743  0.0  0.1 174936  6624 ?        Sl   Nov11   0:00 gdm-session-worker [pam/gdm-password]
+root       88789  0.0  0.1 175056  6748 ?        Sl   Nov12   0:00 gdm-session-worker [pam/gdm-password]
+root       94998  0.0  0.1 175056  6616 ?        Sl   Nov12   0:00 gdm-session-worker [pam/gdm-password]
+root       96416  0.0  0.1 174936  6684 ?        Sl   Nov12   0:00 gdm-session-worker [pam/gdm-password]
+root      102759  0.0  0.1 250516  7140 ?        Ssl  Nov12   0:09 /usr/lib/accountsservice/accounts-daemon
+root      114886  0.0  0.1 174940  6612 ?        Sl   Nov13   0:00 gdm-session-worker [pam/gdm-password]
+meixsh    140121  0.0  0.2 326496  9236 ?        Sl   Nov14   0:00 /usr/libexec/gvfsd-network --spawner :1.3 /org/gtk/gvfs/exec_spaw/1
+meixsh    140143  0.0  0.1 323596  7024 ?        Sl   Nov14   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.3 /org/gtk/gvfs/exec_spaw/3
+meixsh    172081  0.0  0.0   6032  3936 ?        S    Nov15   0:00 /usr/bin/ssh-agent -D -a /run/user/1000/keyring/.ssh
+root      190744  0.0  0.2 251184  9096 ?        Ssl  Nov16   0:01 /usr/lib/bolt/boltd
+meixsh    190759  0.0  0.1  43968  4692 ?        Ss   Nov16   0:00 /usr/lib/bluetooth/obexd
+root      190893  0.0  1.0 270540 42264 ?        Sl   Nov16   0:04 python3 /usr/lib/software-properties/software-properties-dbus
+root      204467  0.0  0.0      0     0 ?        I<   Nov16   0:00 [kworker/u257:0-hci0]
+meixsh    212403  0.0  2.1 1424692 84588 ?       Sl   Nov16   0:22 /usr/bin/nautilus --gapplication-service
+meixsh    219996  0.0  1.2 865496 50816 ?        Sl   05:34   0:01 /usr/bin/gnome-calendar --gapplication-service
+root      223606  0.0  0.0      0     0 ?        S<   07:33   0:00 [loop0]
+root      223764  0.0  0.0      0     0 ?        S<   07:34   0:00 [loop10]
+root      224628  0.0  0.0      0     0 ?        I<   07:40   0:00 [kworker/u257:1-hci0]
+root      224952  0.0  0.2  37168  8492 ?        Ss   08:00   0:00 /usr/sbin/cupsd -l
+root      224954  0.0  0.3 180548 12604 ?        Ssl  08:00   0:00 /usr/sbin/cups-browsed
+meixsh    228411  0.2  1.4 1057644 58784 ?       Ssl  10:29   1:25 /usr/libexec/gnome-terminal-server
+meixsh    228422  0.0  0.1  20724  6556 pts/0    Ss   10:29   0:01 bash
+root      237499  0.0  0.0      0     0 ?        I    21:27   0:00 [kworker/0:2-events]
+root      237554  0.0  0.0      0     0 ?        I    21:30   0:00 [kworker/2:0-events]
+root      237706  0.0  0.0      0     0 ?        I    21:42   0:00 [kworker/u256:1-events_power_efficient]
+root      237779  0.0  0.0      0     0 ?        I    21:43   0:01 [kworker/3:0-events]
+root      237976  0.0  0.0      0     0 ?        I    21:54   0:00 [kworker/1:1-events]
+root      238050  0.0  0.0      0     0 ?        I    21:59   0:00 [kworker/1:0-events]
+root      238072  0.0  0.0      0     0 ?        I    21:59   0:00 [kworker/u256:2-events_unbound]
+root      238090  0.0  0.0      0     0 ?        I    22:00   0:00 [kworker/3:2-events]
+root      238097  0.0  0.0      0     0 ?        I    22:00   0:00 [kworker/2:2-events]
+root      238155  0.0  0.0      0     0 ?        I    22:00   0:00 [kworker/0:0]
+root      238200  0.0  0.0      0     0 ?        I    22:05   0:00 [kworker/u256:0-events_unbound]
+root      238233  0.0  0.0      0     0 ?        I    22:05   0:00 [kworker/3:1-events]
+root      238250  0.0  0.0      0     0 ?        I    22:05   0:00 [kworker/3:3]
+meixsh    238278  0.0  0.0  20108  3360 pts/0    R+   22:07   0:00 ps aux
